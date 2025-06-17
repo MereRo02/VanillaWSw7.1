@@ -41,14 +41,13 @@ function formatDate(date) {
 
 function searchCity(city) {
   let apiKey = "af100of073be0141d3a3t336d3db1ff1";
-  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}`;
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
   axios.get(apiUrl).then(refreshWeather);
 }
 
 function handleSearchSubmit(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#search-form-input");
-
   searchCity(searchInput.value);
 }
 
