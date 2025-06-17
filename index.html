@@ -23,15 +23,24 @@
   </form>
     </header>
     <main>
+      <div class="weather-app">
+    <div class="weather-app-data">
       <div>
-        <h1>Johannesburg</h1>
-        <p>
-          Tuesday 18:49, clear skies
-          <br />
-          Humidity: 42%, Wind: 3.13km/h
+        <h1 class="weather-app-city" id="city">Johannesburg</h1>
+        <p class="weather-app-details">
+          <span id="time">Tuesday 18:49</span>,
+          <span id="description">clear skies</span><br />
+          Humidity: <strong id="humidity">66%</strong>,
+          Wind: <strong id="wind-speed">3.13km/h</strong>
         </p>
       </div>
-      <div>🌤️ 8°C</div>
+      <div class="weather-app-temperature-container">
+        <div id="icon">🌤️</div>
+        <div class="weather-app-temperature" id="temperature">8</div>
+        <div class="weather-app-unit">°C</div>
+      </div>
+    </div>
+  </div>
     </main>
 
     <footer>
