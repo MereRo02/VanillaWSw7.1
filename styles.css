@@ -5,6 +5,18 @@ body {
   margin: 0;
   padding: 0;
 }
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh; /* full height minus some room for footer */
+  padding: 20px;
+}
 a {
   color: #4e0342;
   text-decoration: none;
@@ -69,16 +81,6 @@ header {
 main {
   padding: 20px 0;
 }
-.weather-app {
-  max-width: 600px; 
-  margin:  20px auto;
-  padding: 30px;
-  background: #f8f8f8;
- 
-  border-radius: 12px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-
 
 .weather-app-data {
   display: flex;
