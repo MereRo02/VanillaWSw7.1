@@ -1,7 +1,7 @@
 body {
-   background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+   background: linear-gradient(to right, #e0c3fc, #cde5fc);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
+  color: #2c2b2b;
   margin: 0;
   padding: 0;
 }
@@ -14,7 +14,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 90vh; /* full height minus some room for footer */
+  min-height: 90vh; 
   padding: 20px;
 }
 a {
@@ -39,7 +39,7 @@ a {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(252, 245, 245, 0.6);
+  background: rgba(255, 243, 254, 0.911);
   border-radius: 16px;
   z-index: 0;
 }
@@ -66,13 +66,13 @@ header {
 }
 
 .search-form-button {
-  background: #d646a6;
+  background: #e06dba;
   padding: 12px 18px;
   border: none;
   font-size: 16px;
   margin-left: 5px;
   border-radius: 6px;
-  color: #ffffff;
+  color: #f9f7fe;
   cursor: pointer;}
 
 .search-form-button:hover {
@@ -115,9 +115,7 @@ main {
 .weather-app-temperature-container {
   display: flex;
   align-items: center;
-  
-  
-}
+  }
 
 .weather-app-icon {
  width: 40px;
@@ -150,7 +148,7 @@ footer {
   color: rgba(0, 0, 0, 0.6);
 }
 footer a {
-  color: #6200ea;
+  color: #8b6084;
   text-decoration: none;
 }
 
