@@ -11,8 +11,11 @@ a {
 }
 
 .weather-app {
+  background-image: url("clouds.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background: rgb(252, 245, 245);
-  max-width: 500px;
   position: relative;
   overflow: hidden;
   margin: 40px auto;
